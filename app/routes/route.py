@@ -19,6 +19,10 @@ async def post_team(team: Team):
 async def put_team(id: str, team: Team):
     collection_name.find_one_and_update({"_id": ObjectId(id)}, {"$set": dict(team)})
 
+@router.delete("/")
+async def delete_teams():
+    collection_name.delete_many({})
+
 @router.delete("/{id}")
 async def delete_team(id: str):
     collection_name.find_one_and_delete({"_id": ObjectId(id)})
