@@ -59,7 +59,7 @@ async def get_valid_pairs(id: str):
     if len(valid_pairings) == 0:
         raise HTTPException(
             status_code=404,
-            detail=f"Team with id {id} has no valid pairings!"
+            detail=f"Team with ID {id} has no valid pairings!"
         )
 
     return get_valid_pairings(runner_up, teams)
