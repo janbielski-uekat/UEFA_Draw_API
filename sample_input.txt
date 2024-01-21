@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Manchester City",
+        "nationality": "EN",
+        "place_in_group": 1,
+        "group": "A"
+    },
+    {
+        "name": "Paris Saint-Germain",
+        "nationality": "FR",
+        "place_in_group": 2,
+        "group": "A"
+    },
+    {
+        "name": "Liverpool",
+        "nationality": "EN",
+        "place_in_group": 1,
+        "group": "B"
+    },
+    {
+        "name": "Atlético Madryt",
+        "nationality": "ES",
+        "place_in_group": 2,
+        "group": "B"
+    },
+    {
+        "name": "AJAX",
+        "nationality": "NED",
+        "place_in_group": 1,
+        "group": "C"
+    },
+    {
+        "name": "Sporting CP",
+        "nationality": "POR",
+        "place_in_group": 2,
+        "group": "C"
+    },
+    {
+        "name": "Real Madryt",
+        "nationality": "ES",
+        "place_in_group": 1,
+        "group": "D"
+    },
+    {
+        "name": "Inter Mediolan",
+        "nationality": "IT",
+        "place_in_group": 2,
+        "group": "D"
+    },
+    {
+        "name": "Bayern Monachium",
+        "nationality": "DE",
+        "place_in_group": 1,
+        "group": "E"
+    },
+    {
+        "name": "SL Benfica",
+        "nationality": "POR",
+        "place_in_group": 2,
+        "group": "E"
+    },
+    {
+        "name": "Manchester United",
+        "nationality": "EN",
+        "place_in_group": 1,
+        "group": "F"
+    },
+    {
+        "name": "Villarreal CF",
+        "nationality": "ES",
+        "place_in_group": 2,
+        "group": "F"
+    },
+    {
+        "name": "Lille OSC",
+        "nationality": "FR",
+        "place_in_group": 1,
+        "group": "G"
+    },
+    {
+        "name": "Red Bull Salzburg",
+        "nationality": "AU",
+        "place_in_group": 2,
+        "group": "G"
+    },
+    {
+        "name": "Juventus",
+        "nationality": "IT",
+        "place_in_group": 1,
+        "group": "H"
+    },
+    {
+        "name": "Chelsea",
+        "nationality": "EN",
+        "place_in_group": 2,
+        "group": "H"
+    }
+]
