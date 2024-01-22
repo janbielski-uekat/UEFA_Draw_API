@@ -100,7 +100,7 @@ async def put_pair(teamA_id: str, teamB_id: str):
         teamB.pair = teamA.name
         collection_name.find_one_and_update({"_id": ObjectId(teamA_id)}, {"$set": teamA.model_dump()},
                                             return_document=True)
-        collection_name.find_one_and_update({"_id": ObjectId(teamB_id)}, {"$set": teamA.model_dump()},
+        collection_name.find_one_and_update({"_id": ObjectId(teamB_id)}, {"$set": teamB.model_dump()},
                                             return_document=True)
     else:
         raise HTTPException(
